@@ -1,13 +1,38 @@
-$prefix: "../img/";
-$footer__height: 53px;
-$img__comingsoon: $prefix+"comingsoon.jpg"; 
-$img__error: $prefix+"error.jpg"; 
-$img__privacy: $prefix+"privacy.jpg"; 
+$prefix: "../../img/";
+$bg__contact-img: 
+    $prefix+"contact/contact-s1.jpg",
+    $prefix+"contact/contact-s2.jpg";
+$bg__coming-img: $prefix+"comingsoon.jpg"; 
+$bg__faq-img: 
+    $prefix+"faq/faq-s1.jpg",
+    "",
+    $prefix+"faq/faq-s3.jpg";
+$bg__error-img: $prefix+"error.jpg"; 
+$bg__index-img: $prefix+"index/index-s1.jpg";
+$bg__locations-img: $prefix+"locations/locations-s1.jpg";
+$bg__prices-img: 
+    $prefix+"prices/prices-s1.jpg",
+    "",
+    $prefix+"prices/prices-s3.jpg";
+$bg__privacy: $prefix+"privacy.jpg"; 
 $section__classes:
+    "contact",
     "comingsoon",
+    "faq",
     "error",
+    "index",
+    "locations",
+    "prices",
     "privacy";
 $section__images:
-    $img__comingsoon,
-    $img__error,
-    $img__privacy;
+    $bg__contact-img,
+    $bg__coming-img,
+    $bg__faq-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__locations-img,
+    $bg__prices-img,
+    $bg__privacy;
+$color__shadow: #333;
+$footer__height: 41px;
+$text-shadow: 1px 1px 3px $color__shadow; 

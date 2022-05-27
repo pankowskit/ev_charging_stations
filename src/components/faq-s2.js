@@ -6,15 +6,15 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class FaqS2 extends Component{
     render(){
         return(    
-            <Container fluid className="faq-s2 d-flex minh-50vh align-items-center py-5 bg-secondary">
-                <Row className="mx-0 w-100 px-3 text-shadow">
+            <Container fluid className="faq-s2 d-flex minh-50vh align-items-center py-5 bg-warning border-top border-dark">
+                <Row className="mx-0 w-100 px-3">
                     <Col xs={12} className="py-3">
-                        <h2 className="display-6 text-center text-md-start text-white text-uppercase">
+                        <h2 className="display-6 text-center text-md-start text-dark text-uppercase">
                             Lorem ipsum dolor
                         </h2>
                     </Col>
                     <Col xs={12} md={3} className="mx-auto text-center text-md-start">
-                        <p className="initialism text-white">
+                        <p className="initialism text-dark">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -22,10 +22,10 @@ class FaqS2 extends Component{
                         </p>
                     </Col>
                     <Col md={1} className="d-none d-md-block mx-auto">
-                        <div class=" border-start mx-auto h-100 w-25"></div>
+                        <div class="border-dark border-start mx-auto h-100 w-25"></div>
                     </Col>
                     <Col xs={12} md={3} className="text-center text-md-start">
-                        <p className="initialism text-white">
+                        <p className="initialism text-dark">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -33,10 +33,10 @@ class FaqS2 extends Component{
                         </p>
                     </Col>
                     <Col md={1} className="d-none d-md-block mx-auto">
-                        <div class=" border-start mx-auto h-100 w-25"></div>
+                        <div class="border-dark border-start mx-auto h-100 w-25"></div>
                     </Col>
                     <Col xs={12} md={3} className="mx-auto text-center text-md-start">
-                        <p className="initialism text-white">
+                        <p className="initialism text-dark">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
